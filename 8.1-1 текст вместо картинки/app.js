@@ -55,7 +55,7 @@ function handleClick(clickedButtonEvent) {
  * @param {HTMLImageElement} card.img
  * @param {HTMLDivElement} card.productName
  * @param {HTMLButtonElement} card.button
- */
+ **/
 function hideMoreText(card) {
     card.img.style.display="block";
     card.wrap.querySelector(".desc").remove();
